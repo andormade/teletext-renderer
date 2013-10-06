@@ -141,18 +141,18 @@ var Teletext = {
 
 	/**
 	 * Teletext Control Character
-     * Function: The characters and mosaics following a double height code are
-     * stretched into the following row. The origin of a character is the upper
-     * character position. The whole of an enlarged character is displayed with
-     * the attributes that apply to the origin of the character. When double
-     * height (or double size) characters are used on a given row, the row
-     * below normal height characters on that row is displayed with the same
-     * local background colour and no foreground data. Any transmitted Level 1
-     * characters and attributes for the lower row are ignored.
-     *
+	 * Function: The characters and mosaics following a double height code are
+	 * stretched into the following row. The origin of a character is the upper
+	 * character position. The whole of an enlarged character is displayed with
+	 * the attributes that apply to the origin of the character. When double
+	 * height (or double size) characters are used on a given row, the row
+	 * below normal height characters on that row is displayed with the same
+	 * local background colour and no foreground data. Any transmitted Level 1
+	 * characters and attributes for the lower row are ignored.
+	 *
 	 * @static
 	 * @constant {number}
-     */
+	 */
 	DOUBLE_HEIGHT: 0x0d,
 
 	/**
