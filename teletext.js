@@ -1,4 +1,4 @@
-var TeletextHelper = {
+var Teletext = {
 	/**
 	 * Alpha Colour Code
 	 * Function: Set the foreground colour of the characters to black and 
